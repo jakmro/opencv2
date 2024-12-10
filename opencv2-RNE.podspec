@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
       :tag => "#{s.version}"
     }
     s.platform = :ios
-    s.ios.deployment_target = "16.0"
+    s.ios.deployment_target = "15.1"
     s.preserve_paths = "opencv2.xcframework"
     s.vendored_frameworks = "opencv2.xcframework"
     s.requires_arc = false
