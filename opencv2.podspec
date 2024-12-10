@@ -1,8 +1,10 @@
 Pod::Spec.new do |s|
-    s.name = "ReactNativeExecutorchOpencv2"
+    s.name = "opencv2-RNE"
     s.version = "0.1.0"
-    s.summary = "OpenCV (Computer Vision) for iOS."
+    s.summary = "RNE-compatible OpenCV (Computer Vision) for iOS."
     s.homepage = "https://github.com/jakmro/opencv2.git"
+    s.authors = { "Jakub Mroz" => "jakub.mroz@swmansion.com" }
+    s.license = { :type => 'Apache License 2.0', :file => 'LICENSE' }
     s.source = { 
       :git => "https://github.com/jakmro/opencv2.git", 
       :tag => "#{s.version}"
