@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "opencv2-RNE"
-    s.version = "0.1.0"
+    s.version = "0.1.1"
     s.summary = "RNE-compatible OpenCV (Computer Vision) for iOS."
     s.homepage = "https://github.com/jakmro/opencv2.git"
     s.authors = { "Jakub Mroz" => "jakub.mroz@swmansion.com" }
